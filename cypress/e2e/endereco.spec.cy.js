@@ -2,7 +2,7 @@
 import enderecoPage from "../support/page-objects/endereco.page";
 const dadosEndereco = require('../fixtures/endereco.json')
 
-describe('Fucnionaldiade Endereços - Faturamento e Entrego', () => {
+describe('Funcionaldiade Endereços - Faturamento e Entrega', () => {
     beforeEach(() => {
         cy.visit('minha-conta')
         cy.fixture('perfil').then(dados => {
